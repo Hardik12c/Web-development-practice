@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation in CSS</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: 300px;
+            font-size: 25px;
+            border-radius: 8px;
+            border: 2px solid black;
+            background-color: rgba(245, 60, 60, 0.89);
+            transition: all 0.5s ease-in-out;
+        }
+
+        .box:hover {
+            /* transform: rotate(360deg);
+            transform: skew(35deg); */
+            /* transform: scale(0.5); */
+            transform: translate(123px, 123px);    /* we can use translatex and translatey for moving it in x and y direction  */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            I am a box.
+        </div>
+    </div>
+</body>
+
+</html>

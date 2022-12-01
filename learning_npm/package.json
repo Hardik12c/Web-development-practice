@@ -1,0 +1,17 @@
+{
+  "name": "learning_npm",
+  "version": "1.0.0",
+  "description": "this is the packages of the best developing tools",
+  "main": "hardik39.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hardik",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

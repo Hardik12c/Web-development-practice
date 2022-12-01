@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            height: 300px;
+            width: 300px;
+            /* transition-property: background-color;
+            transition-duration: 2s;
+            transition-delay: 0.5s;
+            transition-timing-function: ease-in-out; */
+            /* transition: background-color transiton-duration transition-timing-function transition-delay */
+            /* transition: background-color 2s ease-in-out 0.01s; */
+            transition: all 1s ease-in-out 0.01s;
+
+        }
+        .box:hover{
+            border-radius:60px ;
+            height: 500px;
+            width: 500px;
+            background-color: green;
+            font-size: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transitions in CSS</h1>
+    <div class="container">
+        <div class="box">
+            Hello i am hardik
+        </div>
+    </div>
+</body>
+
+</html>

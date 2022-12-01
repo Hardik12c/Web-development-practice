@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math object in javascript</title>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+            <li>item-5</li>
+        </ul>
+    </div>
+    <script>
+        let m=Math;
+        // console.log(m);
+        // console.log("the value of E is "+Math.E)
+        // console.log("the value of LN10 is "+Math.LN10)
+        // console.log("the value of LN2 is "+Math.LN2)
+        // console.log("the value of LOG10E is"+Math.LOG10E)
+
+
+        // using Math for rounding off digits
+        let a=23.99897989;
+        let b=7394.22;
+        console.log("the value of a and b is "+Math.round(a),Math.round(b));
+        // exponential function
+        console.log(Math.pow(2,4));
+        console.log(Math.pow(3,3));
+        console.log(Math.pow(5,10));
+        // square root function
+        console.log(Math.sqrt(144));
+        // ceil and floor functions in Math
+        console.log(Math.ceil(5.2));
+        console.log(Math.floor(5.3));
+        // absolute function in Math
+        console.log(Math.abs(-89));
+        // finding minimum value by math
+        console.log(Math.min(7,8,90,4));
+        console.log(Math.max(40,30,20));
+        // generating a random number
+        let x=1;
+        let y=100;
+        console.log(Math.round(x+(y-x)*Math.random()));
+    </script>
+</body>
+</html>

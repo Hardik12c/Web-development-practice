@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops in javascript</title>
+    <style>
+        html {
+            font-size: 5px;
+        }
+
+        .container {
+            display: flex;
+            font-size: 10rem;
+            flex-direction: column;
+        }
+
+        .container p {
+            padding: 1rem;
+            margin: 1rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>Item-1</p>
+        <p>Item-2</p>
+        <p>Item-3</p>
+    </div>
+    <script>
+        console.log("we are learning loops in javascript");
+        // for(let i=0;i<3;i++){
+        //     console.log("hello");
+        // }
+        let arr = ["hardik", "rishabh", "jai", "jubraj", "raj"];
+        for (let i = 0; i < arr.length; i++) {
+            console.log("Hello " + arr[i]);
+        }
+        for (elements of arr) {
+            console.log("Hello friend " + elements);
+        }
+        let discription = {
+            name: "hardik",
+            course: "B.tech",
+            channel: "YV Gamers",
+            enrollment_no: "E20CSE374",
+            age: 19
+        }
+        for (key in discription) {
+            console.log(`the ${key} is ${discription[key]}`);
+        }
+    </script>
+</body>
+
+</html>

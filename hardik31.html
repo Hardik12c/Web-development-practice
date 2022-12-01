@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript settimeout and cleartimeout</title>
+</head>
+<body>
+    <div class="container">
+        <p id="time"></p>
+        <h1>this is my heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse sint provident voluptate necessitatibus atque laborum eos, quidem repellat? Consectetur ipsa blanditiis et facere vel earum commodi ab error. Est!</p>
+    </div>
+    <script>
+        console.log("setinterval and settimeout features of javascript")
+        function greet(name,text){
+            console.log("hello good morning"+" "+name+" "+text);
+        }
+        // greet("hardik");
+        // timeout_id=setTimeout(greet,2000,"hardik","Be patient");
+        // console.log(timeout_id);
+        // clearTimeout(timeout_id);
+        interval_id=setInterval(greet,1000,"hardik","takecare");
+        clearInterval(interval_id);
+        function displaytime(){
+            time=new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML=time;
+        }
+        setInterval(displaytime,1000);
+    </script>
+</body>
+</html>

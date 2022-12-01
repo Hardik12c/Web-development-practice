@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400&family=Headland+One&family=IBM+Plex+Sans:wght@500&family=Neonderthaw&family=The+Nautigal:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        .navtool {
+            background-color: rgb(27, 22, 22);
+            border-radius: 35px;
+        }
+
+        a {
+            /* text-decoration: none; */
+            color: blue;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            padding: 8px 12px;
+            margin: 3px 10px;
+
+        }
+
+        ul {
+            overflow: auto;
+        }
+
+        .search {
+            float: right;
+            padding: 9px 64px;
+        }
+
+        #search {
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 2px 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navtool">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">About</a></li>
+                <div class="search">
+                    <input type="search" name="Search Box" id="search" placeholder="Search this website" >
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

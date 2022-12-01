@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(172 255 255);
+
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid rgb(44, 153, 44);
+            background-color: rgb(247 255 131);
+            margin: auto;
+        }
+
+        .fuel {
+            border: 5px solid rgb(248 3 114);
+            margin: 20px 20px;
+            padding: 10px 35px;
+            background-color: rgb(165 177 185);
+            font-family: 'Fira Sans', sans-serif;
+            text-align: center;
+            text-align: justify;
+        }
+
+        #bike {
+            width: 30%;
+            float: left;
+        }
+
+        #car {
+            width: 60%;
+            float: right;
+        }
+
+        #plane {
+            width: 96%;
+            /* float: left;  */
+            clear: both;
+        }
+
+        #head {
+            font-family: 'Headland One', serif;
+            margin: 10px 155px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="head">Welcome to my Automobile Page</h1>
+        <div id="bike" class="fuel">
+            <h1>Bike</h1>
+            <p id="bikepara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ex ipsam
+                assumenda, saepe praesentium voluptas provident animi id, explicabo, dicta obcaecati laboriosam quae
+                molestias quasi laborum dignissimos nisi! Sint, aperiam! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. lo </p>
+        </div>
+        <div id="car" class="fuel">
+            <h1>Car</h1>
+            <p id="carpara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt nihil, vitae
+                dolor recusandae sit, adipisci, libero ipsam quo animi hic facere at sequi voluptas! Consequatur ipsum
+                blanditiis eveniet fugiat quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In vero
+                quisquam soluta! Id ratione corrupti deleniti aperiam provident est officiis, quos atque quod deserunt
+                libero consectetur quo necessitatibus ad illum vel consequuntur accusamus? Incidunt aperiam facilis
+                veritatis, voluptas consequuntur ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                possimus recusandae officia accusamus totam ratione, praesentium amet voluptatem excepturi aliquam
+                nesciunt tenetur cum. Voluptatibus veniam, exercitationem optio vel aliquam eligendi? </p>
+        </div>
+        <div id="plane" class="fuel">
+            <h1>Plane</h1>
+            <p id="planepara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ab sequi aut
+                ex vero dolores animi enim, facere nihil sint iure. Doloremque velit, quasi maiores ut maxime est a
+                ipsum.</p>
+        </div>
+        <div id="cycle" class="fuel">
+            <h1>Cycle</h1>
+            <p id="cyclepara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ab sequi aut
+                ex vero dolores animi enim, facere nihil sint iure. Doloremque velit, quasi maiores ut maxime est a
+                ipsum.</p>
+        </div>
+    </div>
+</body>
+
+</html>

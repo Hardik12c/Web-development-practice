@@ -1,0 +1,12 @@
+.yell{
+    color: yellow;
+}
+.redgb{
+    background-color: gray; border: 2px solid red;
+}
+#main{
+    color: darkmagenta;
+}
+header,span{
+    color: blue;border: 2px solid red;
+}

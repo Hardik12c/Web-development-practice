@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrow function</title>
+    <style>html{
+        font-size: 25px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">hello we are learning arrow function somehow syntax is difficult to learn but i will manage and try to give my best in this tutorial</div>
+    <script>
+        // let greet= ()=>console.log("good morning");
+        // greet();
+        setTimeout(() => 
+            console.log('my name is hardik')
+        , 2000);
+        let sum=(a,b)=>console.log(a+b);
+        sum(7,9);
+        let obj1={
+            greet:"good morning",
+            names:["hardik","dharmahendra","jai","rishabh","vansh"],
+            speak(){
+                this.names.forEach((name)=>console.log(this.greet+" how are you "+name))
+            }
+        }
+        obj1.speak();
+    </script>
+</body>
+</html>

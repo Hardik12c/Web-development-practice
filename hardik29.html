@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulating doms</title>
+</head>
+<body>
+    <div id="doms" class="container">
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+        </ul>
+    </div>
+    <div class="container">
+        <p>hey we are learning javascript</p>
+    </div>
+    <script>
+        // let id=document.getElementById('doms');
+        // console.log(id);
+
+        // let cls=document.getElementsByClassName('container');
+        // console.log(cls);
+        // // console.log(cls[0]);
+        // console.log(cls[1]);
+        let sel=document.querySelector("#doms>ul>li")
+        console.log(sel);
+        sel.innerHTML="hardik";
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+    <style>
+        :root {
+            --1stcolor: red;
+            --boxcolor: blue;
+            --backcolor: green;
+            --d:300px
+        }
+
+        .container {
+            display: flex;
+            background-color: var(--backcolor);
+            width: var(--d);
+            margin: auto;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            font-size: 10px;
+            padding: 2px;
+            margin: 12px 8px;
+            border: 5px solid var(--boxcolor);
+            background-color: var(--1stcolor);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facilis asperiores atque labore sed
+            explicabo quam fuga nam molestiae. Reprehenderit eveniet provident atque sunt ut dicta doloremque quaerat
+            assumenda nam.
+        </div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facilis asperiores atque labore sed
+            explicabo quam fuga nam molestiae. Reprehenderit eveniet provident atque sunt ut dicta doloremque quaerat
+            assumenda nam.
+        </div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facilis asperiores atque labore sed
+            explicabo quam fuga nam molestiae. Reprehenderit eveniet provident atque sunt ut dicta doloremque quaerat
+            assumenda nam.
+        </div>
+    </div>
+</body>
+
+</html>

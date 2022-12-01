@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text shadow and box shadow</title>
+</head>
+<style>
+.container{
+    display: flex;
+}
+
+.box{
+    border: 2px solid green;
+    padding: 20px 15px;
+    margin: 20px 15px;
+    background-color: blanchedalmond;
+    /* box-shadow: x,y,blur,spread,color; for bottom and right side */
+    box-shadow: 7px 5px 9px  5px red;
+    /* for up and left side */
+    box-shadow: -7px -5px 9px  5px red;
+    text-shadow: 4px 2px 3px rgb(185, 184, 184);
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <h1>Box 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque enim animi, vitae perferendis, officiis
+                sint blanditiis voluptatibus cum odio quos perspiciatis veritatis nihil itaque repellat cupiditate
+                aliquam recusandae. Nemo, accusantium?</p>
+        </div>
+        <div class="box" id="box2">
+            <h1>Box 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque enim animi, vitae perferendis, officiis
+                sint blanditiis voluptatibus cum odio quos perspiciatis veritatis nihil itaque repellat cupiditate
+                aliquam recusandae. Nemo, accusantium?</p>
+        </div>
+        <div class="box" id="box3">
+            <h1>Box 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque enim animi, vitae perferendis, officiis
+                sint blanditiis voluptatibus cum odio quos perspiciatis veritatis nihil itaque repellat cupiditate
+                aliquam recusandae. Nemo, accusantium?</p>
+        </div>
+    </div>
+</body>
+
+</html>

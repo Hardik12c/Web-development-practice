@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript|string</title>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <div id="container" class="content"></div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro similique pariatur et alias officia explicabo incidunt obcaecati delectus. Mollitia totam quam veritatis neque similique ea nisi cumque, voluptatem aperiam magni</p>
+    <script>
+        var s="hardik is a good boy";
+        // var age=18;
+        // var name="Hardik";
+        // var len=name.length;
+        // var len2=s.length;
+        // console.log(`the length of name is ${len}`);
+        // console.log(`the length of s is ${len2}`);
+        document.getElementById("container").innerHTML="<h1> hardik is a good boy";
+        var news=s.replace("good","excellent");
+        console.log(news);
+        var whitespace="     hardik is a     good boy      ";
+        var remove_space=whitespace.trim();
+        console.log(remove_space);
+        // console.log(s.charAt(3));
+    </script>
+</body>
+</html>

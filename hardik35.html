@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json learning</title>
+</head>
+<body>
+    <div class="container">
+        <h1>this is container</h1>
+    </div>
+    <script>
+        let jsonobj={
+            name: "hardik",
+            age: 18,
+            enrollment_no:"e20cse374"
+        }
+        console.log(jsonobj);
+        let jsonstr=JSON.stringify(jsonobj);
+        console.log(jsonstr);
+        jsonstr=jsonstr.replace("hardik","jai");
+        console.log(jsonstr);
+        jsonstr_to_obj=JSON.parse(jsonstr);
+        console.log(jsonstr_to_obj);
+    </script>
+</body>
+</html>
